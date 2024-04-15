@@ -6,6 +6,7 @@ title: Kitchen Benchtops
 galleryitems:
   - imageurl: /gallery/kitchen/1.jpg
     imagealt: Kitchen benchtop
+    vertical: true
   - imageurl: /gallery/kitchen/2.jpg
     imagealt: Kitchen benchtop
   - imageurl: /gallery/kitchen/3.jpg

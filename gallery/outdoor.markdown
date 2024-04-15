@@ -16,8 +16,10 @@ galleryitems:
     imagealt: Signs and slabs
   - imageurl: /gallery/outdoor/6.jpg
     imagealt: Signs and slabs
+    vertical: true
   - imageurl: /gallery/outdoor/7.jpg
     imagealt: Signs and slabs
+    vertical: true
   - imageurl: /gallery/outdoor/8.jpg
     imagealt: Signs and slabs
   - imageurl: /gallery/outdoor/9.jpg

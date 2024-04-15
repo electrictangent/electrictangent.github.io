@@ -6,22 +6,29 @@ title: Indoor Living
 galleryitems:
   - imageurl: /gallery/indoor/01.jpg
     imagealt: A picture of our thing
+    vertical: true
   - imageurl: /gallery/indoor/02.jpg
     imagealt: A picture of our thing
+    vertical: true
   - imageurl: /gallery/indoor/03.jpg
     imagealt: A picture of our thing
+    vertical: true
   - imageurl: /gallery/indoor/04.jpg
     imagealt: A picture of our thing
+    vertical: true
   - imageurl: /gallery/indoor/05.jpg
     imagealt: A picture of our thing
+    vertical: true
   - imageurl: /gallery/indoor/06.jpg
     imagealt: A picture of our thing
+    vertical: true
   - imageurl: /gallery/indoor/07.jpg
     imagealt: A picture of our thing
   - imageurl: /gallery/indoor/08.jpg
     imagealt: A picture of our thing
   - imageurl: /gallery/indoor/09.jpg
     imagealt: A picture of our thing
+    vertical: true
   - imageurl: /gallery/indoor/10.jpg
     imagealt: A picture of our thing
   - imageurl: /gallery/indoor/11.jpg
@@ -40,8 +47,10 @@ galleryitems:
     imagealt: A picture of our thing
   - imageurl: /gallery/indoor/18.jpg
     imagealt: A picture of our thing
+    vertical: true
   - imageurl: /gallery/indoor/19.jpg
     imagealt: A picture of our thing
+    vertical: true
   - imageurl: /gallery/indoor/20.jpg
     imagealt: A picture of our thing
   - imageurl: /gallery/indoor/21.jpg

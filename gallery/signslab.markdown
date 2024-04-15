@@ -22,6 +22,7 @@ galleryitems:
     imagealt: A picture of our thing
   - imageurl: /gallery/signslab/09.jpg
     imagealt: A picture of our thing
+    vertical: true
 
 ---
 
