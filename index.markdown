@@ -10,7 +10,7 @@ hero:
     # Creative Woodwork Crafted for Your Special&nbsp;Space
     
     
-    Good to see you here. At WoodConcepts, we carefully craft bespoke woodwork creations from reclaimed New Zealand native timber and other timber from elsewhere.  With innovative craftsmanship, we create beautiful woodwork tailored to suit your unique style and space.
+    Good to see you here. At WoodConcepts, we carefully craft bespoke woodwork creations from reclaimed New Zealand native timber and other timber from elsewhere.  With innovative craftsmanship, we create beautiful woodwork tailored to suit your unique style and space. We use traditional joinery methods as much as possible.
 
 
     Our customers include businesses for example Boho Café in Palmerston North, Curious Little Bagels in Whanganui and Hopper House in Wellington. 
@@ -40,14 +40,14 @@ galleryitems:
 
 customerfeedback:
   - Excellent trade thanks. Easy communication. Table is excellent and looks great.
-  - We LOVE your seats. How wonderful they look. Everyone loves them, and I feel supported by your prices being so reasonable - and caring. Every time i sit on them I will feel loved and supported (not just holding me up..)
   - Happy with the item, thanks.
+  - First class this morning was a massive success and yeah the shelf looks so good. Can’t wait to get the other one and might have more commissions in the future.
   - Great trade – we are really happy with the drawers.
+  - We LOVE your seats. How wonderful they look. Everyone loves them, and I feel supported by your prices being so reasonable - and caring. Every time i sit on them I will feel loved and supported.
   - Just amazing, so beautiful, matches our Matai floors, thanks so much :-)
   - I would recommend Murray to all traders.  His work is well made and carefully finished.
   - As per description. Extremely well built. Recommended trader.
-  - First class this morning was a massive success and yeah the shelf looks so good. Can’t wait to get the other one and might have more commissions in the future.
-  - Hi Murray just letting you know I have paid the final instalment of $xxx Thank you so much for your time, effort and expertise.  It’s been a good ride!
+  - Hi Murray just letting you know I have paid the final instalment. Thank you so much for your time, effort and expertise.  It’s been a good ride!
   - Thank you so much for the bench, I just love it.  Hopefully the word will spread and more work will come from it.
   - Yes the barstools are working a treat. We love them and use them a lot.
 
