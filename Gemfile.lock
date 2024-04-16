@@ -64,7 +64,7 @@ GEM
       unicode-display_width (>= 1.1.1, < 3)
     unicode-display_width (2.5.0)
     webrick (1.8.1)
-    woodconcepts-theme (1.0.11)
+    woodconcepts-theme (1.0.12)
       jekyll (~> 4.3)
 
 PLATFORMS
