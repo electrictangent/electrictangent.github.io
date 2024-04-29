@@ -12,7 +12,6 @@ galleryitems:
     vertical: true
   - imageurl: /gallery/indoor/03.jpg
     imagealt: A picture of our thing
-    vertical: true
   - imageurl: /gallery/indoor/04.jpg
     imagealt: A picture of our thing
     vertical: true
@@ -28,9 +27,9 @@ galleryitems:
     imagealt: A picture of our thing
   - imageurl: /gallery/indoor/09.jpg
     imagealt: A picture of our thing
-    vertical: true
   - imageurl: /gallery/indoor/10.jpg
     imagealt: A picture of our thing
+    vertical: true
   - imageurl: /gallery/indoor/11.jpg
     imagealt: A picture of our thing
   - imageurl: /gallery/indoor/12.jpg
@@ -53,6 +52,7 @@ galleryitems:
     vertical: true
   - imageurl: /gallery/indoor/20.jpg
     imagealt: A picture of our thing
+    vertical: true
   - imageurl: /gallery/indoor/21.jpg
     imagealt: A picture of our thing
   - imageurl: /gallery/indoor/22.jpg

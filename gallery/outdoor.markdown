@@ -4,25 +4,25 @@ title: Outdoor Living
 
 
 galleryitems:
-  - imageurl: /gallery/outdoor/1.jpg
+  - imageurl: /gallery/outdoor/01.jpg
     imagealt: Indoor Living
-  - imageurl: /gallery/outdoor/2.jpg
+  - imageurl: /gallery/outdoor/02.jpg
     imagealt: Kitchen Benchtops
-  - imageurl: /gallery/outdoor/3.jpg
+  - imageurl: /gallery/outdoor/03.jpg
     imagealt: Outdoor living
-  - imageurl: /gallery/outdoor/4.jpg
+  - imageurl: /gallery/outdoor/04.jpg
     imagealt: Signs and slabs
-  - imageurl: /gallery/outdoor/5.jpg
+  - imageurl: /gallery/outdoor/05.jpg
     imagealt: Signs and slabs
-  - imageurl: /gallery/outdoor/6.jpg
-    imagealt: Signs and slabs
-    vertical: true
-  - imageurl: /gallery/outdoor/7.jpg
+  - imageurl: /gallery/outdoor/06.jpg
     imagealt: Signs and slabs
     vertical: true
-  - imageurl: /gallery/outdoor/8.jpg
+  - imageurl: /gallery/outdoor/07.jpg
     imagealt: Signs and slabs
-  - imageurl: /gallery/outdoor/9.jpg
+    vertical: true
+  - imageurl: /gallery/outdoor/08.jpg
+    imagealt: Signs and slabs
+  - imageurl: /gallery/outdoor/09.jpg
     imagealt: Signs and slabs
 
 ---

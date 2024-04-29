@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Signs and Slabs
-
+description: See more of our signs and slabs.
 
 galleryitems:
   - imageurl: /gallery/signslab/01.jpg

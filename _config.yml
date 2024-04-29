@@ -27,9 +27,8 @@ address: >-
   Palmerston North 4412 
 
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  We carefully craft bespoke woodwork creations from reclaimed New Zealand native timber and other timber from elsewhere.
+  With innovative craftsmanship, we create beautiful woodwork using traditional joinery methods tailored to suit your unique style and space.
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: "https://woodconcepts.nz" # the base hostname & protocol for your site, e.g. http://example.com
 lang: en-NZ
@@ -41,6 +40,13 @@ theme: woodconcepts-theme
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      image: /assets/logo.png
+      
 
 # Exclude from processing.
 # The following items will not be processed, by default.

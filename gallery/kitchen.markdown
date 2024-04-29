@@ -4,20 +4,20 @@ title: Kitchen Benchtops
 
 
 galleryitems:
-  - imageurl: /gallery/kitchen/1.jpg
+  - imageurl: /gallery/kitchen/01.jpg
     imagealt: Kitchen benchtop
     vertical: true
-  - imageurl: /gallery/kitchen/2.jpg
+  - imageurl: /gallery/kitchen/02.jpg
     imagealt: Kitchen benchtop
-  - imageurl: /gallery/kitchen/3.jpg
+  - imageurl: /gallery/kitchen/03.jpg
     imagealt: Kitchen benchtop
-  - imageurl: /gallery/kitchen/4.jpg
+  - imageurl: /gallery/kitchen/04.jpg
     imagealt: Kitchen benchtop
-  - imageurl: /gallery/kitchen/5.jpg
+  - imageurl: /gallery/kitchen/05.jpg
     imagealt: Kitchen benchtop
-  - imageurl: /gallery/kitchen/6.jpg
+  - imageurl: /gallery/kitchen/06.jpg
     imagealt: Kitchen benchtop
-  - imageurl: /gallery/kitchen/7.jpg
+  - imageurl: /gallery/kitchen/07.jpg
     imagealt: Kitchen benchtop
 ---
 
