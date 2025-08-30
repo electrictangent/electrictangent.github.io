@@ -42,7 +42,7 @@ jobs:
         run: gem build woodconcepts-theme.gemspec
         working-directory: ./theme
       - name: Install Jekyll Theme
-        run: gem install --local woodconcepts-theme-1.0.14.gem
+        run: gem install jekyll && gem install --local woodconcepts-theme-1.0.14.gem
         working-directory: ./theme
       - name: Setup Ruby
         # https://github.com/ruby/setup-ruby/releases/tag/v1.207.0
