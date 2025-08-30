@@ -48,7 +48,7 @@ jobs:
         working-directory: ./theme
       - name: Setup Ruby
         # https://github.com/ruby/setup-ruby/releases/tag/v1.207.0
-        run: bundle install
+        run: gem install bundle --user-install && bundle install
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v5
