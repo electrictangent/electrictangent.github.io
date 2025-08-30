@@ -1,0 +1,17 @@
+<section class="hero" style="background-image: url({{ include.imageurl }});">
+    {% if include.header == "true" %}
+        {% include header.html %}
+    {% endif %}
+
+    <div class="hero-text">
+
+        {%- if include.description -%}
+            {{ include.description | markdownify }}
+        {%- endif -%} 
+
+        {%- if include.button -%}
+            <a class="large-button" href="{{ include.buttonurl }}">{{ include.button }}</a>
+        {%- endif -%}
+
+    </div>
+</section>

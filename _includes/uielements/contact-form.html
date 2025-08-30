@@ -1,0 +1,31 @@
+<form name="contact-form" id="contact-form" action="{{ include.onsubmit }}" method="POST" enctype="multipart/form-data" accept-charset="UTF-8">
+  <div class="inputfield">
+    <label for="name">Name</label>
+    <input type="text" id="name" name="name" required />
+  </div>
+
+  <div class="inputfield">
+    <label for="company">Company</label>
+    <input type="text" id="company" name="company" />
+  </div>
+
+  <div class="inputfield">
+    <label for="email">Email</label>
+    <input type="email" id="email" name="email" required />
+  </div>
+
+  <div class="inputfield">
+    <label for="phone" id="phonelabel">Phone Number</label>
+    <input type="tel" id="phone" name="phone" />
+  </div>
+
+
+  <label for="message">Message</label>
+  <textarea id="message" name="message" required></textarea>
+
+  <button class="large-button" type="submit">Submit</button>
+</form>
+
+<p id="validation-error-msg"></p>
+
+<script src="{{ "/assets/js/form-validation.js" | relative_url }}"></script>

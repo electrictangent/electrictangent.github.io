@@ -1,0 +1,48 @@
+---
+layout: default
+---
+
+{{ content }}
+
+<!-- Layout for two column map + contact form -->
+<section class="mulcol">
+  <div class="column">
+    <div class="leftcol">
+      <h1>Find us</h1>
+      <div id="map"></div>
+
+      <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+      <script src="https://unpkg.com/leaflet-gesture-handling"></script>
+      <script src="{{ "/assets/js/map.js" | relative_url }}"></script>
+
+
+      <div class="genmulcol">
+        <div class="genleftcolumn">
+            <p class="bold">Address:</p>
+        </div>
+          
+        <div class="genrightcolumn">
+            {{ site.address | markdownify }}
+        </div>
+      </div>
+      
+      <p><span class="bold">Email:</span> <a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
+
+      <p><span class="bold">Phone:</span> <a href="tel:{{ site.phone | strip }}">{{ site.phone }}</a></p>
+      
+    </div>
+  </div>
+  <div class="column">
+    <div class="rightcol">
+      {% if page.contacttitle %}
+      <h1>{{ page.contacttitle }}</h1>
+      {% endif %}
+
+      {% if page.contactdescription %}
+      <p>{{ page.contactdescription }}</p>
+      {% endif %}
+
+      {% include uielements/contact-form.html onsubmit=page.submitaction %}
+    </div>
+  </div>
+</section>
