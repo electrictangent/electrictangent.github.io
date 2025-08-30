@@ -33,18 +33,6 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-      - name: Clone theme
-        uses:  actions/checkout@v4
-        with:
-          repository: electrictangent/woodconcepts-theme
-          path: ./theme
-      - name: Add user gem repo to PATH
-        run: echo "$HOME/.local/share/gem/ruby/3.2.0/bin" >> $GITHUB_PATH
-      - name: Build Jekyll Theme
-        run: |
-          gem build woodconcepts-theme.gemspec 
-          cp woodconcepts-theme-1.0.14.gem ../.
-        working-directory: ./theme
       - name: Setup Ruby
         # https://github.com/ruby/setup-ruby/releases/tag/v1.207.0
         uses: ruby/setup-ruby@v1
@@ -58,7 +46,6 @@ jobs:
       - name: Build with Jekyll
         # Outputs to the './_site' directory by default
         run: | 
-          gem install --local woodconcepts-theme-1.0.14.gem
           bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
         env:
           JEKYLL_ENV: production
