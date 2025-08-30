@@ -36,10 +36,11 @@ logoimgsrc: /assets/logo.png
 copyright: All rights reserved &#169; 2024 Woodconcepts. Web design by <a href="https://pukekocode.nz">pukekocode.nz</a>
 
 # Build settings
-remote-theme: electrictangent/woodconcepts-theme
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
+  - jekyll-remote-theme
+remote-theme: electrictangent/woodconcepts-theme
 
 defaults:
   - scope:

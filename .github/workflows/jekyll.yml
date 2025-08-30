@@ -33,24 +33,24 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-      - name: Clone theme
-        uses:  actions/checkout@v4
-        with:
-          repository: electrictangent/woodconcepts-theme
-          path: ./theme
-      - name: Add user gem repo to PATH
-        run: echo "$HOME/.local/share/gem/ruby/3.2.0/bin" >> $GITHUB_PATH
-      - name: Get Path
-        run: echo $GITHUB_PATH
-      - name: Build Jekyll Theme
-        run: gem build woodconcepts-theme.gemspec
-        working-directory: ./theme
-      - name: Install Jekyll Theme
-        run: sudo gem install jekyll  && sudo gem install --local woodconcepts-theme-1.0.14.gem
-        working-directory: ./theme
+      # - name: Clone theme
+      #   uses:  actions/checkout@v4
+      #   with:
+      #     repository: electrictangent/woodconcepts-theme
+      #     path: ./theme
+      # - name: Add user gem repo to PATH
+      #   run: echo "$HOME/.local/share/gem/ruby/3.2.0/bin" >> $GITHUB_PATH
+      # - name: Get Path
+      #   run: echo $GITHUB_PATH
+      # - name: Build Jekyll Theme
+      #   run: gem build woodconcepts-theme.gemspec
+      #   working-directory: ./theme
+      # - name: Install Jekyll Theme
+      #   run: sudo gem install jekyll  && sudo gem install --local woodconcepts-theme-1.0.14.gem
+      #   working-directory: ./theme
       - name: Setup Ruby
         # https://github.com/ruby/setup-ruby/releases/tag/v1.207.0
-        uses: ruby/setup-ruby@4a9ddd6f338a97768b8006bf671dfbad383215f4
+        uses: ruby/setup-ruby@v1
         with:
           ruby-version: '3.1' # Not needed with a .ruby-version file
           bundler-cache: true # runs 'bundle install' and caches installed gems automatically
