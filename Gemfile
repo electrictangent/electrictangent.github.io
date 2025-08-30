@@ -8,4 +8,6 @@ source 'https://rubygems.org'
 # This will help ensure the proper Jekyll version is running.
 # Happy Jekylling!
 gem 'github-pages'
-# gem "woodconcepts-theme"
+gem "json", "~> 2.7"
+gem "jekyll-feed", "~> 0.17.0"
+gem 'jekyll-seo-tag'

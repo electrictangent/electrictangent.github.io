@@ -1,0 +1,20 @@
+<section class="gallery-page">
+
+    {% for item in include.galleryitems %}
+    <div class="tile">
+      <h2>{{ item.title }}</h2>
+
+      {%- if item.vertical -%}
+      <div class="img-container" style="aspect-ratio: 3/4;">
+      {%- else -%}
+      <div class="img-container">
+      {%- endif -%} 
+
+        <img src="{{ item.imageurl | relative_url }}" alt="{{ item.imagealt }}" />
+      </div>
+
+      {{ item.description | markdownify }}
+    </div>
+    {% endfor %}
+
+</section>
