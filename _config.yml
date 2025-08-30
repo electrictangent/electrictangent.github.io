@@ -41,6 +41,7 @@ plugins:
   - jekyll-seo-tag
   - jekyll-remote-theme
 remote-theme: electrictangent/woodconcepts-theme
+theme: woodconcepts-theme
 
 defaults:
   - scope:
