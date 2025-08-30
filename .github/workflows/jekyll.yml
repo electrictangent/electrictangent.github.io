@@ -39,7 +39,9 @@ jobs:
           repository: electrictangent/woodconcepts-theme
           path: ./theme
       - name: Add user gem repo to PATH
-        run: export PATH="$PATH:/home/runner/.local/share/gem/ruby/3.2.0/bin"
+        run: echo "$GITHUB_PATH:/home/runner/.local/share/gem/ruby/3.2.0/bin" >> $GITHUB_PATH
+      - name: Get Path
+        run: echo $GITHUB_PATH
       - name: Build Jekyll Theme
         run: gem build woodconcepts-theme.gemspec
         working-directory: ./theme
