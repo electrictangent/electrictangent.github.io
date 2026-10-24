@@ -2,7 +2,7 @@
 layout: home
 title: Wood Concepts
 contacttitle: Contact us
-contactdescription: If you have queries, please contact us via the form below and we will email you as soon as possible, or phone us.
+contactdescription: If you have queries, please contact us via <a href='mailto:woodconceptsnz@gmail.com'>email</a> and we will get back to you as soon as possible, or phone us.
 submitaction: https://formkeep.com/f/cd1a16b90ad6
 
 hero:
