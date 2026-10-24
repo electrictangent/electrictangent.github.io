@@ -33,7 +33,7 @@ baseurl: "/" # the subpath of your site, e.g. /blog
 url: "https://woodconcepts.nz" # the base hostname & protocol for your site, e.g. http://example.com
 lang: en-NZ
 logoimgsrc: /assets/logo.png
-copyright: All rights reserved &#169; 2024 Woodconcepts. Web design by <a href="https://pukekocode.nz">pukekocode.nz</a>
+copyright: All rights reserved &#169; 2026 Woodconcepts. Email us at <a href="mailto:woodconceptsnz@gmail.com">woodconceptsnz@gmail.com</a>
 
 # Build settings
 # theme: woodconcepts-theme
