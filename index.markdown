@@ -7,13 +7,9 @@ submitaction: https://formkeep.com/f/cd1a16b90ad6
 
 hero:
   description: >-
-    # Creative Woodwork Crafted for Your Special&nbsp;Space
+    # Bespoke Woodwork made to order
     
-    
-    Good to see you here. At WoodConcepts, we carefully craft bespoke woodwork creations from reclaimed New Zealand native timber and other timber from elsewhere.  With innovative craftsmanship, we create beautiful woodwork tailored to suit your unique style and space. We use traditional joinery methods as much as possible.
-
-
-    Our customers include businesses for example Boho Café in Palmerston North, Curious Little Bagels in Whanganui and Hopper House in Wellington. 
+    Discover the beauty of bespoke woodwork with WoodConcepts. Located at Recycled Timber Traders in Palmerston North, WoodConcepts is an independent business that uses their workshop facilities to transform reclaimed New Zealand native timber and other fine woods into stunning, handcrafted pieces. Applying traditional joinery techniques, we create custom work tailored to your individual style and space—bringing the warmth and character of finely crafted wood into your home or business.
 
   imageurl: /assets/img/hero.jpg
   button: Contact us
