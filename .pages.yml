@@ -19,6 +19,7 @@ content:
     type: collection
     path: gallery
     format: yaml-frontmatter
+    filename: "{primary}.markdown"
     fields:
       - name: layout
         label: Layout
