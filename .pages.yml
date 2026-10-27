@@ -1,9 +1,9 @@
-media: media
+media: assets/img
 content:
-  - name: pages
-    label: Pages
+  - name: gallery-pages
+    label: Gallery Pages
     type: collection
-    path: docs
+    path: gallery
     fields:
       - name: title
         type: string
