@@ -25,7 +25,7 @@ content:
         label: Layout
         type: select
         options:
-          values: [default, page]
+          values: [page]
         required: true
 
       - name: title
