@@ -40,7 +40,7 @@ content:
             type: image
             required: true
             options:
-              media: images
+              media: gallery-images
 
           - name: imagealt
             label: Image alt text
