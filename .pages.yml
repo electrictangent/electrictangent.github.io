@@ -16,7 +16,7 @@ media:
 content:
   - name: gallery-pages
     label: Gallery Pages
-    type: file
+    type: collection
     path: gallery
     format: yaml-frontmatter
     fields:
