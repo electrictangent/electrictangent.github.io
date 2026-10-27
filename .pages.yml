@@ -58,6 +58,8 @@ content:
         label: Template
         type: code
         required: true
+        options:
+          format: markdown
 
   - name: home
     label: Home
