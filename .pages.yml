@@ -1,4 +1,33 @@
-media: assets/img
+media: 
+  - name: images
+    label: Images
+    input: assets/img
+    output: /assets/img
+    rename: safe
+    extensions: [png, jpg, webp]
+  - name: logo
+    label: Logo
+    input: assets/logo.png
+    output: /assets/logo.png
+  - name: gallery-images
+    label: Gallery Images
+    input: gallery
+    output: gallery
+    rename: safe
+    extensions: [png, jpg, webp]
+
+components:
+  galleryitem:
+    type: object
+    label: Gallery Item
+    fields:
+      - name: imageurl
+        type: string
+      - name: imagealt
+        type: string
+      - name: vertical
+        type: boolean
+
 content:
   - name: gallery-pages
     label: Gallery Pages
@@ -7,5 +36,6 @@ content:
     fields:
       - name: title
         type: string
-      - name: body
-        type: rich-text
+      - name: galleryitems
+        component: galleryitem
+        label: Gallery Items
