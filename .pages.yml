@@ -86,6 +86,8 @@ content:
       - name: submitaction
         label: Form submit URL
         type: string
+        hidden: true
+
 
       - name: hero
         label: Hero
@@ -166,16 +168,18 @@ content:
         type: text
 
       - name: description
-        label: Site description
+        label: Site description (for SEO)
         type: text
 
       - name: baseurl
         label: Base URL
         type: string
+        hidden: true
 
       - name: url
         label: Site URL
         type: string
+        hidden: true
 
       - name: lang
         label: Language
@@ -193,9 +197,11 @@ content:
         label: Jekyll plugins
         type: string
         list: true
+        hidden: true
 
       - name: defaults
         label: Default page settings
+        hidden: true
         type: object
         list: true
         fields:
