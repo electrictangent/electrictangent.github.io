@@ -25,8 +25,8 @@ content:
         label: Layout
         type: select
         options:
-          values: [page, home, post, default]
-        hidden: true
+          values: [page]
+        required: true
 
       - name: title
         label: Title
@@ -57,7 +57,7 @@ content:
       - name: body
         label: Template
         type: code
-        hidden: true
+        required: true
 
   - name: home
     label: Home
