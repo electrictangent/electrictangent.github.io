@@ -1,11 +1,224 @@
-media: media
+media: 
+  - name: images
+    label: Images
+    input: assets
+    output: /assets
+    rename: safe
+    extensions: [png, jpg, webp]
+  - name: gallery-images
+    label: Gallery Images
+    input: gallery
+    output: gallery
+    rename: safe
+    extensions: [png, jpg, webp]
+
+
 content:
-  - name: pages
-    label: Pages
+  - name: gallery-pages
+    label: Gallery Pages
     type: collection
-    path: docs
+    path: gallery
+    format: yaml-frontmatter
+    filename: "{primary}.markdown"
     fields:
+      - name: layout
+        label: Layout
+        type: select
+        options:
+          values: [page]
+        required: true
+
       - name: title
+        label: Title
         type: string
+        required: true
+
+      - name: galleryitems
+        label: Gallery items
+        type: object
+        list: true
+        fields:
+          - name: imageurl
+            label: Image
+            type: image
+            required: true
+            options:
+              media: gallery-images
+
+          - name: imagealt
+            label: Image alt text
+            type: string
+            required: true
+
+          - name: vertical
+            label: Vertical image
+            type: boolean
+
       - name: body
+        label: Template
+        type: code
+        required: true
+        options:
+          format: markdown
+
+  - name: home
+    label: Home
+    type: file
+    path: index.markdown
+    format: yaml-frontmatter
+    fields:
+      - name: layout
+        label: Layout
+        type: string
+        hidden: true
+
+      - name: title
+        label: Title
+        type: string
+        required: true
+
+      - name: contacttitle
+        label: Contact title
+        type: string
+
+      - name: contactdescription
+        label: Contact description
         type: rich-text
+
+      - name: submitaction
+        label: Form submit URL
+        type: string
+        hidden: true
+
+
+      - name: hero
+        label: Hero
+        type: object
+        fields:
+          - name: description
+            label: Description
+            type: rich-text
+
+          - name: imageurl
+            label: Hero image
+            type: image
+            options:
+              media: images
+
+          - name: button
+            label: Button text
+            type: string
+
+          - name: buttonurl
+            label: Button URL
+            type: string
+
+      - name: galleryitems
+        label: Gallery items
+        type: object
+        list: true
+        fields:
+          - name: title
+            label: Title
+            type: string
+
+          - name: description
+            label: Description
+            type: rich-text
+
+          - name: imageurl
+            label: Image
+            type: image
+            options:
+              media: images
+
+          - name: imagealt
+            label: Image alt text
+            type: string
+
+      - name: customerfeedback
+        label: Customer feedback
+        type: text
+        list: true
+
+      - name: body
+        label: Template
+        type: code
+        hidden: true
+
+
+  - name: site_settings
+    label: Site settings
+    type: file
+    path: _config.yml
+    format: yaml
+    fields:
+      - name: sitename
+        label: Site name
+        type: string
+
+      - name: email
+        label: Email
+        type: string
+
+      - name: phone
+        label: Phone
+        type: string
+
+      - name: address
+        label: Address
+        type: text
+
+      - name: description
+        label: Site description (for SEO)
+        type: text
+
+      - name: baseurl
+        label: Base URL
+        type: string
+        hidden: true
+
+      - name: url
+        label: Site URL
+        type: string
+        hidden: true
+
+      - name: lang
+        label: Language
+        type: string
+
+      - name: logoimgsrc
+        label: Logo image path
+        type: string
+
+      - name: copyright
+        label: Copyright text
+        type: text
+
+      - name: plugins
+        label: Jekyll plugins
+        type: string
+        list: true
+        hidden: true
+
+      - name: defaults
+        label: Default page settings
+        hidden: true
+        type: object
+        list: true
+        fields:
+          - name: scope
+            label: Scope
+            type: object
+            fields:
+              - name: path
+                label: Path
+                type: string
+
+          - name: values
+            label: Default values
+            type: object
+            fields:
+              - name: image
+                label: Default image path
+                type: string
