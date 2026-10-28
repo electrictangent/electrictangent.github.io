@@ -8,7 +8,7 @@
 {% endif %}
 <link rel="icon" type="image/x-icon" href="{{ "/assets/img/favicon.ico" | relative_url}}">
 <link rel="preload" href="{{ "/assets/css/style.css" | relative_url }}" as="style" />
-<link rel="preload" href="{{ "/assets/img/hero.jpg" | relative_url }}" as="image" />
+<link rel="preload" fetchpriority="high" href="{{ "/assets/img/hero.jpg" | relative_url }}" as="image" />
 
 <link rel="stylesheet" fetchpriority="high"  href="{{ "/assets/css/style.css" | relative_url }}" />
   
